@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -28,6 +34,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: black;
 }
 
 h1 {
@@ -93,4 +100,14 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+#game-canvas {
+  width: 800px;
+  height: 600px;
+  border: solid 1px rgb(255, 255, 255);
+  background-color: teal;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
